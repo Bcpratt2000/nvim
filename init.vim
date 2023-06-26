@@ -1,15 +1,16 @@
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'davidhalter/jedi-vim'
 Plug 'zchee/deoplete-jedi'
 Plug 'sbdchd/neoformat'
 Plug 'davidhalter/jedi-vim'
 Plug 'neomake/neomake'
+Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
 
 "Plug 'zchee/deoplete-jedi'
 "Plug 'sbdchd/neoformat'
 "Plug 'davidhalter/jedi-vim'
 "Plug 'neomake/neomake'
+"Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 
 "Code Linting
 let g:neomake_python_enabled_makers = ['pylint']
