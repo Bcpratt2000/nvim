@@ -18,11 +18,10 @@ let g:semshi#excluded_hl_groups = []
 "Terminal changes
 "remap <Esc> to exit insert in :terminal
 :tnoremap <Esc> <C-\><C-n>
-:set shell=powershell
+":set shell=powershell
 
 :set shellxquote=''
 
 "Editor commands
-:set nowrap
+":set nowrap
 :set number
-
