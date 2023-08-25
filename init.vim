@@ -3,6 +3,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
 Plug 'davidhalter/jedi-vim' " 
 Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' } "Syntax Highlighting
+Plug 'djoshea/vim-autoread'
 "Plug 'sbdchd/neoformat'
 "Plug 'neomake/neomake'
 call plug#end()
@@ -25,3 +26,7 @@ let g:semshi#excluded_hl_groups = []
 "Editor commands
 ":set nowrap
 :set number
+
+"autoreload file if change
+:set autoread
+
